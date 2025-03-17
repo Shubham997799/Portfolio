@@ -7,6 +7,7 @@ export const Hero: React.FC = () => {
     <section id="home" className="min-h-screen flex items-center justify-center py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+          
           {/* Left Side - Text */}
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
@@ -16,8 +17,8 @@ export const Hero: React.FC = () => {
               Software Engineer
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-2xl">
-              PG-DAC graduate with expertise in Full-Stack Development specializing in React, Spring Boot, Java, and MySQL.
-              Passionate about creating efficient and scalable solutions.
+              PG-DAC graduate with expertise in Full-Stack Development specializing in React, 
+              Spring Boot, Java, and MySQL. Passionate about creating efficient and scalable solutions.
             </p>
 
             {/* Buttons - Resume Download & View Projects */}
@@ -36,7 +37,8 @@ export const Hero: React.FC = () => {
                 smooth={true}
                 duration={500}
                 offset={-64}
-                className="inline-flex items-center px-6 py-3 rounded-lg bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors cursor-pointer"
+                className="inline-flex items-center px-6 py-3 rounded-lg bg-gray-200 dark:bg-gray-700 
+                text-gray-900 dark:text-white hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors cursor-pointer"
               >
                 View Projects
               </Link>
@@ -69,13 +71,17 @@ export const Hero: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Side - Enlarged Image */}
+          {/* Right Side - Profile Image */}
           <div className="flex-shrink-0 flex justify-center">
-            <img
-              src="/Image/Shubham1.jpg"
-              alt="Shubham Tate"
-              className="w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full object-contain shadow-xl border-4 border-white dark:border-gray-800"
-            />
+            <div className="w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 
+              border-white dark:border-gray-800 shadow-xl">
+              <img
+                src="/Shubham1.jpg"
+                alt="Shubham Tate"
+                className="w-full h-full object-contain"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
 
