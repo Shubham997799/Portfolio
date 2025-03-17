@@ -7,21 +7,21 @@ const projects: Project[] = [
     title: 'Restaurant Management Platform',
     description: 'A comprehensive platform for restaurant management including order processing, inventory management, and customer relationship management.',
     techStack: ['React.js', 'Spring Boot', 'MongoDB'],
-    githubLink: 'https://github.com/Shubham997799/restaurant-management',
+    githubLink: 'https://github.com/Shubham997799/Restorant-MAnagement-System',
     image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=400&fit=crop'
   },
   {
     title: 'Human Capital Management System (HCMS)',
     description: 'An integrated system for managing employee data, attendance, payroll, and performance evaluations.',
     techStack: ['React', 'Spring Boot', 'MySQL'],
-    githubLink: 'https://github.com/Shubham997799/hcms',
+    githubLink: 'https://github.com/Shubham997799/HumanCapitalMS',
     image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=800&h=400&fit=crop'
   },
   {
     title: 'WealthConnect',
     description: 'A financial management application for tracking investments, expenses, and generating financial reports.',
     techStack: ['React.js', 'Spring Boot', 'MySQL'],
-    githubLink: 'https://github.com/Shubham997799/wealth-connect',
+    githubLink: 'https://github.com/Shubham997799/WealthConnect',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop'
   },
   {
