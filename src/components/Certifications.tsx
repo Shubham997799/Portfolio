@@ -4,19 +4,23 @@ import type { Certification } from '../types';
 const certifications: Certification[] = [
   {
     title: 'C Language',
-    issuer: 'Phoenix InfoTech, Pune'
+    issuer: 'Phoenix InfoTech, Pune',
+    image: '/C_LANGUAGE.jpg'
   },
   {
     title: 'Python OOP',
-    issuer: 'LinkedIn Learning & Phoenix InfoTech, Pune'
+    issuer: 'LinkedIn Learning & Phoenix InfoTech, Pune',
+    image: '/PYthon OOP.jpg'
   },
   {
-    title: 'C++ Language',
-    issuer: 'EduComp Softech, Pune'
+    title: 'Python',
+    issuer: 'Phoenix InfoTech, Pune',
+    image: '/PYTHON.jpg'
   },
   {
     title: 'Java',
-    issuer: 'EduComp Softech, Pune'
+    issuer: 'EduComp Softech, Pune',
+    image: '/JAVA.jpg'
   }
 ];
 
@@ -33,6 +37,7 @@ export const Certifications: React.FC = () => {
               key={index}
               className="bg-white dark:bg-gray-700 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow"
             >
+              <img src={cert.image} alt={cert.title} className="w-full h-40 object-cover rounded-md mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
                 {cert.title}
               </h3>

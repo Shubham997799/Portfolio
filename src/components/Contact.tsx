@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Github, Linkedin } from 'lucide-react';
+import { Mail, Github, Linkedin, Phone } from 'lucide-react';
 
 export const Contact: React.FC = () => {
   return (
@@ -16,6 +16,13 @@ export const Contact: React.FC = () => {
             >
               <Mail className="w-6 h-6 text-blue-600 dark:text-blue-400" />
               <span className="ml-4 text-gray-900 dark:text-white">tateshubham549@gmail.com</span>
+            </a>
+            <a
+              href="tel:+918380941519"
+              className="flex items-center p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:shadow-lg transition-shadow"
+            >
+              <Phone className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+              <span className="ml-4 text-gray-900 dark:text-white">8380941519</span>
             </a>
             <a
               href="https://linkedin.com/in/shubham-tate-48703734b"

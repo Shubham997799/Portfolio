@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { Github, Linkedin, Mail, Download, ChevronDown } from 'lucide-react';
+import { Github, Linkedin, Mail, Download, ChevronDown, Phone } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
@@ -24,14 +24,13 @@ export const Hero: React.FC = () => {
             {/* Buttons - Resume Download & View Projects */}
             <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-12">
               <a
-  href="/Resume/ShubhamTate_Resume.pdf"
-  download="ShubhamTate_Resume.pdf"
-  className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors"
->
-  <Download className="w-5 h-5 mr-2" />
-  Download Resume
-</a>
-
+                href="/Resume/ShubhamTate_Resume.pdf"
+                download="ShubhamTate_Resume.pdf"
+                className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors"
+              >
+                <Download className="w-5 h-5 mr-2" />
+                Download Resume
+              </a>
 
               <Link
                 to="projects"
@@ -46,7 +45,7 @@ export const Hero: React.FC = () => {
             </div>
 
             {/* Social Icons */}
-            <div className="flex justify-center md:justify-start space-x-6">
+            <div className="flex flex-wrap justify-center md:justify-start space-x-6">
               <a
                 href="https://github.com/Shubham997799"
                 target="_blank"
@@ -68,6 +67,12 @@ export const Hero: React.FC = () => {
                 className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
               >
                 <Mail className="w-6 h-6" />
+              </a>
+              <a
+                href="tel:+918380941519"
+                className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+              >
+                <Phone className="w-6 h-6" />
               </a>
             </div>
           </div>
