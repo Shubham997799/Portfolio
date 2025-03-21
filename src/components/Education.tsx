@@ -4,7 +4,7 @@ import type { Education } from '../types';
 const educationList: Education[] = [
   {
     institution: 'CDAC Hyderabad, Telangana, India',
-    degree: 'PG-DAC',
+    degree: 'Post Graduate Diploma - Advanced Computing',
     year: 'Aug 2024 - Feb 2025',
     percentage: '61%',
     image: '/C-DAC.jpg'
