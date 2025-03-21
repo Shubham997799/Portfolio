@@ -22,7 +22,7 @@ export const Contact: React.FC = () => {
               className="flex items-center p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:shadow-lg transition-shadow"
             >
               <Phone className="w-6 h-6 text-blue-600 dark:text-blue-400" />
-              <span className="ml-4 text-gray-900 dark:text-white">+91-8380941519</span>
+              <span className="ml-4 text-gray-900 dark:text-white">+91- 8380941519 </span>
             </a>
             <a
               href="https://linkedin.com/in/shubham-tate-48703734b"
