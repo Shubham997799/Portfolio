@@ -9,7 +9,7 @@ const certifications: Certification[] = [
   },
   {
     title: 'Python OOP',
-    issuer: 'LinkedIn Learning & Phoenix InfoTech, Pune',
+    issuer: 'LinkedIn Learning',
     image: '/PYthon OOP.jpg'
   },
   {
