@@ -24,7 +24,7 @@ export const Hero: React.FC = () => {
             {/* Buttons - Resume Download & View Projects */}
             <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-12">
               <a
-                href="/Resume/ShubhamTate_Resume.pdf"
+                href="/Resume/TateShubham_Resume.pdf"
                 download="ShubhamTate_Resume.pdf"
                 className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors"
               >
