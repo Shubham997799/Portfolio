@@ -14,17 +14,18 @@ export const Hero: React.FC = () => {
               Hi, I'm <span className="text-blue-600 dark:text-blue-400">Shubham Tate</span>
             </h1>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-700 dark:text-gray-300 mb-8">
-              Software Engineer
+              Software Developer (Intouch Consumer Care Solutions Pvt. Ltd.)
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-2xl">
-              PG-DAC graduate with expertise in Full-Stack Development specializing in React, 
-              Spring Boot, Java, and MySQL. Passionate about creating efficient and scalable solutions.
+              PG-DAC graduate and Full Stack Developer working since Oct 2025 with expertise in React,
+              Laravel, JavaScript, and MySQL. Passionate about developing scalable
+              and high-performance applications.
             </p>
 
             {/* Buttons - Resume Download & View Projects */}
             <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-12">
               <a
-                href="/Resume/TateShubham_Resume.pdf"
+                href="/Resume/Shubham_Tate_Resume.pdf"
                 download="ShubhamTate_Resume.pdf"
                 className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors"
               >

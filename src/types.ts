@@ -26,3 +26,11 @@ export interface Certification {
   title: string;
   issuer: string;
 }
+
+export interface Experience {
+  company: string;
+  position: string;
+  duration: string;
+  description: string[];
+  technologies?: string[];
+}
