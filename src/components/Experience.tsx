@@ -3,19 +3,21 @@ import type { Experience } from '../types';
 
 const experienceList: Experience[] = [
   {
-    company: 'Intouch Consumer Care Solutions Pvt. Ltd. India',
+    company: 'Intouch Consumer Care Solutions Pvt. Ltd. — India — Pune (Onsite)',
     position: 'Software Developer',
     duration: 'Oct 2025 - Present',
     description: [
-      'Working on migration of legacy systems (Core PHP and Java 6) to Laravel framework',
-      'Contributing to development of ERP system, POS system, and ordering platform',
-      'Designed and integrated REST APIs for seamless communication between systems',
-      'Implemented payment gateway integrations for secure transaction processing',
-      'Used Redis for caching and improving system performance',
-      'Collaborated with cross-functional teams to deliver scalable and maintainable solutions',
-      'Performed debugging, performance optimization, and code refactoring'
+      'Onsite client engagement at Fashionking Brands Pvt. Ltd. (Cottonking, LinenKing, Tyzer).',
+      'Contributing to modernization of legacy applications by migrating systems from Core PHP and Java 6 to the Laravel framework.',
+      'Involved in the development and enhancement of ERP, POS, and online ordering platforms for enterprise operations.',
+      'Designed and integrated RESTful APIs for seamless communication between business systems and third-party services.',
+      'Implemented secure payment gateway integrations for reliable transaction processing.',
+      'Optimized application performance using Redis caching and backend performance tuning techniques.',
+      'Collaborated with cross-functional teams to deliver scalable, high-performance, and maintainable software solutions.',
+      'Handled debugging, code refactoring, and performance optimization to ensure system reliability and smooth operations.',
+      'Worked on ERP, POS, and factory WIP solutions for Fashionking business operations.'
     ],
-    technologies: ['PHP', 'Java', 'Laravel', 'Redis', 'REST APIs', 'MySQL']
+    technologies: ['PHP', 'Java 6', 'Laravel', 'Redis', 'REST APIs', 'MySQL']
   }
 ];
 
