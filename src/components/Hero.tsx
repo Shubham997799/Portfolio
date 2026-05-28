@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
             <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-12">
               <a
                 href="/Resume/ShhubhamTateResume.pdf"
-                download="Shubham_Tate_Resume.pdf"
+                download="ShhubhamTateResume.pdf"
                 className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors"
               >
                 <Download className="w-5 h-5 mr-2" />
